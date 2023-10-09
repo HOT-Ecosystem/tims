@@ -1,0 +1,23 @@
+services:
+  jekyll:
+    build:
+      context: ./docker
+
+    volumes:
+      - type: bind
+        source: ./
+        target: /srv/jekyll
+
+    ports:
+      - target: 4000
+        published: 4000
+      - target: 35729
+        published: 35729
+#    command: ["jekyll", "serve", "-l"]
+    command: ["jekyll", "serve", "-l", "--config", "_config_local.yml"]
+
+
+#    stdin_open: true
+#    tty: true
+#    entrypoint: ["bash"]
+
