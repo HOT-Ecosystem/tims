@@ -13,8 +13,10 @@ services:
         published: 4000
       - target: 35729
         published: 35729
-#    command: ["jekyll", "serve", "-l"]
-    command: ["jekyll", "serve", "-l", "--config", "_config_local.yml"]
+    #    command: ["jekyll", "serve", "-l"]
+    environment:
+      - JEKYLL_LOG_LEVEL=debug
+    command: [ "jekyll", "serve", "-l", "--config", "_config.yml,_config_local.yml" ]
 
 
 #    stdin_open: true
