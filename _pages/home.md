@@ -3,4 +3,4 @@ title: Home
 permalink: /
 ---
 
-Home page content.
+Home page content. Edited.
