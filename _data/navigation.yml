@@ -1,19 +1,19 @@
 main:
-  - title: Home
-    url: /
-  - title: Blog
-    url: /blog/
   - title: About
-    url: /about/
-  - title: Contact
-    url: /contact/
-  - title: Documentation
-    url: /docs/
+    url: /
+#  - title: Blog
+#    url: /blog/
+  - title: Team
+    url: /team/
+  - title: Projects
+    url: /projects/
+  - title: Terminology Server
+    url: /terminology-server/
 
-docs:
-  - title: Getting Started
-    children:
-      - title: "TIMS HAPI Server"
-        url: /docs/hapi/
-      - title: "Web and blog contribution"
-        url: /docs/site/
+#docs:
+#  - title: Getting Started
+#    children:
+#      - title: "TIMS HAPI Server"
+#        url: /docs/hapi/
+#      - title: "Web and blog contribution"
+#        url: /docs/site/
