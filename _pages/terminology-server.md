@@ -6,8 +6,8 @@ permalink: /terminology-server/
 TIMS hosts a FHIR server that provides a unique set of ontologies, terminologies, with unique features such as text 
 search and  SSSOM-formatted mappings.
 
-- http://fhir.terminology-services.com
-- http://20.3.198.176:8080/ (mirror)
+- [http://fhir.terminology-services.com](http://fhir.terminology-services.com)
+- [http://20.3.198.176:8080/](http://20.3.198.176:8080/) (mirror)
 
 ### Notable features
 [//]: # (TODO: need to clarify this list)
@@ -24,7 +24,7 @@ The TIMS server has a few unique features, some of which are not available on an
 - [SSSOM](https://mapping-commons.github.io/sssom/home/) extensions for ConceptMap resources
 
 ### Terminology content
-#### CodeSystems
+**CodeSystems**  
 [//]: # (TODO: need to clarify this list)
 TIMS hosts several popular biomedical terminologies, but is unique in that it offers several biomedical ontologies in 
 the FHIR CodeSystem format.
@@ -35,10 +35,13 @@ the FHIR CodeSystem format.
 * HPO
 * CompLoinc
 * OMOP vocabularies
-* And more on the way
+* More on the way...
 
-#### ConceptMap
-Many of the terminologies and ontologies for which CodeSystems are available also  
+**ConceptMap**  
+Many of the terminologies and ontologies also contain mappings to other terminologies/ontologies, and are represented 
+as FHIR ConceptMap resources. TIMS uniquely includes additional fields from the [SSSOM](
+https://mapping-commons.github.io/sssom/home/) extensions (Simple Standard fo Sharing Ontology Mappings) standard, 
+embedded as FHIR extensions.
 
 [//]: # (#### ValueSet)
 
