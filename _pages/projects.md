@@ -3,6 +3,8 @@ title: Projects
 permalink: /projects/
 ---
 
+All our projects are open source and can be found [on GitHub](https://github.com/HOT-Ecosystem). 
+
 ### FHIR Terminology Server
 TIMS hosts a FHIR server that provides a unique set of ontologies, terminologies, with unique features such as text 
 search and  SSSOM-formatted mappings.

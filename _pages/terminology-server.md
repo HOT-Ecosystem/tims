@@ -24,10 +24,10 @@ The TIMS server has a few unique features, some of which are not available on an
 - [SSSOM](https://mapping-commons.github.io/sssom/home/) extensions for ConceptMap resources
 
 ### Terminology content
-**CodeSystems**  
 [//]: # (TODO: need to clarify this list)
+**CodeSystems**
 TIMS hosts several popular biomedical terminologies, but is unique in that it offers several biomedical ontologies in 
-the FHIR CodeSystem format.
+the FHIR CodeSystem format, including:
 * ICD10CM
 * RxNorm
 * SNOMED-CT 
@@ -35,7 +35,10 @@ the FHIR CodeSystem format.
 * HPO
 * CompLoinc
 * OMOP vocabularies
-* More on the way...
+
+A real-time listing of everything currently loaded can be found: [here](http://20.3.198.176:8080/fhir/CodeSystem?_summary=true)
+
+A list of next the code systems currently in the works can be found: [here](https://github.com/HOT-Ecosystem/hapi-issues/issues/4)
 
 **ConceptMap**  
 Many of the terminologies and ontologies also contain mappings to other terminologies/ontologies, and are represented 
