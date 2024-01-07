@@ -23,10 +23,12 @@ subtitle: Terminology Infrastructure Management Services Group
 email: shahim@essaid.com
 description: >- # this means to ignore newlines until "baseurl:"
   Terminology Infrastructure Management Services Group
-#baseurl: "/tims-website" # the subpath of your site, e.g. /blog
-url: "https://hot-ecosystem.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+#baseurl: "/tims-website" # the subpath of your site, e.g. /blog  # commented out to fix CSS issue with domain hosting/rerouting
+# url: "https://hot-ecosystem.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://timsbiomed.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
-github_username:  HOT-Ecosystem
+# github_username:  HOT-Ecosystem
+github_username:  timsbiomed
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
