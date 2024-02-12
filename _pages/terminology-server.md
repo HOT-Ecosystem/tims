@@ -33,7 +33,7 @@ the FHIR CodeSystem format, including:
 * SNOMED-CT 
 * Mondo 
 * HPO
-* CompLoinc
+* CompLOINC
 * OMOP vocabularies
 
 A real-time listing of everything currently loaded can be found: [here](http://20.3.198.176:8080/fhir/CodeSystem?_summary=true)
