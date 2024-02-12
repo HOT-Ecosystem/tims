@@ -3,8 +3,8 @@ title: Terminology Server
 permalink: /terminology-server/
 ---
 
-TIMS hosts a FHIR server that provides a unique set of ontologies, terminologies, with unique features such as text 
-search and  SSSOM-formatted mappings.
+TIMS hosts a FHIR server that provides a unique set of ontologies/terminologies/vocabularies, with unique features such as text 
+search and [SSSOM](https://github.com/mapping-commons/sssom)-formatted mappings.
 
 - [http://fhir.terminology-services.com](http://fhir.terminology-services.com)
 - [http://20.3.198.176:8080/](http://20.3.198.176:8080/) (mirror)
